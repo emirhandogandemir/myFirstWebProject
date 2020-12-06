@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yazılım</title>
+    <link rel="icon" href="../images/html_logo.png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        #container {
+            width: 100%;
+            margin-left: 0 auto;
+            margin-right: 0 auto;
+            margin-top: 20px;
+        }
+        #ortala {
+            display: table;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+            margin: 0 auto;
+            width: 100%;
+        }
+        hr{
+            height: 10px;
+            background-color: palevioletred;
+            border-radius: 10px;
+            margin: 20px;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        a:hover{
+            font-size: 26px;
+            color: brown;
+        }
+        li {
+            font-size: 20px;
+            list-style-type: decimal;
+        }
+        li a {
+            font-size: 16px;
+            color: blue;
+        }
+        li a:hover {
+            font-size: 16px;
+            color: blue;
+        }
+        #history_a{
+            font-size: 16px;
+            color: blue;
+        }
+        #history{
+            font-size: 20px;
+            float:left;
+            text-align: justify;
+        }
+        #görseller{
+            font-size: 30px;
+        }
+        .footer{
+            padding: 10px;
+            margin-top: 30px;
+            background-color: black;
+            border-radius: 20px;
+            width: 100%;
+            text-align: center;
+        }
+        .footeric {
+            text-align: center;
+            display: grid;
+            margin:auto;
+            grid-template-rows: 140px;
+            grid-gap: 30px;
+        }
+        #sablon2 {
+            border:ridge orange 2px;
+            width: max-content;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="row text-center">
+            <img id="ortala" class="responsive" src="../images/mainPage_photograph.jpg" alt="Üst Bilgi">
+        </div>
+        <div class="container">
+            <div class="col-sm-2">
+                <div style="text-align: center; margin-top: 30px; ">
+                    <img  class="responsive" src="../images/html_logo2.png"/>
+                </div>
+            </div>
+
+            <div class="col-sm-2 text-center" style="margin-top: 40px;">
+                <p><a href="../Pages/mainPage.html">Ana Sayfa</a></p>
+            </div>
+
+            <div class="col-sm-2 text-center" style="margin-top: 40px;">
+                <p><a href="../Pages/moviePage.html">Film - Dizi</a></p>
+            </div>
+            
+            <div class="col-sm-2 text-center" style="margin-top: 40px;">
+                <p><a href="../Pages/languagePage.html">Diller</a></p>
+            </div>
+
+            <div class="col-sm-2 text-center" style="margin-top: 40px;">
+                <p><a href="../Pages/historyPage.html">Tarihçe</a></p>
+            </div>
+
+            <div class="col-sm-2 text-center" style="margin-top: 40px;">
+                <p><a href="../Pages/imagePage.html">Görseller</a></p>
+            </div>
+        </div>
+        <hr>
+        <div style="height: 30px;"></div>
+        <div class="container">        
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>En Yaygın Diller</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>C</li>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>C#</li>
+                        <li>VisualBasic.NET</li>
+                        <li>JavaScript</li>
+                        <li>SQL</li>
+                        <li>PHP</li>
+                        <li>Objective-C<a href="../Pages/languagePage.html">  devamı..</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <h3>Tarihçe</h3>
+                    <p id="history">Yazılım temel itibari ile bir ve sıfırlardan oluşan ve devre kartları üzerinde ki işlemci, diyot ve transistor gibi parçalara giden voltajın değişimini sağlayan kodlardan oluşur. Örneğin bir yüksek voltajı temsil ederken, sıfır düşük
+                        voltajı temsil etmektedir. Hatta günümüz teknolojisinde bulunan bütün cihazlarda ki açma / kapatma sembolü iç içe geçmiş bir ve sıfırdır. 1957 yılında IBM firması FORTRANA dilini ortaya attı ve basit mantıksal karşılaştırmaları
+                        yapan dil, makine dili denilen bir ve sıfıra yakın düşük seviye bir dildi. <a id="history_a" href="../Pages/historyPage.html">devamı..</a></p>
+                </div>
+            </div>
+            <div style="height: 100px;"></div>
+            <h2 class="text-center"> <a id="görseller" href="../Pages/imagePage.html"> Görseller </a> </h2>
+            <div style="height: 20px;"></div>
+            <div class="row">
+                <div class="col-sm-3 text-center">
+                    <img style="width:100%;" src="../images/image1.png">
+                    <img style="width:100%;margin-top: 20px;" src="../images/image1.png">
+                </div>
+                <div class="col-sm-3 text-center">
+                    <img style="width:100%;" src="../images/image1.png">
+                    <img style="width:100%;margin-top: 20px;" src="../images/image1.png">
+                </div>
+                <div class="col-sm-3 text-center">
+                    <img style="width:100%;" src="../images/image1.png">
+                    <img style="width:100%;margin-top: 20px;" src="../images/image1.png">
+                </div>
+                <div class="col-sm-3 text-center">
+                    <img style="width:100%;" src="../images/image1.png">
+                    <img style="width:100%;margin-top: 20px;" src="../images/image1.png">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+<footer class="footer">
+    <h2 style="color: orange;">İletişim Bilgileri</h2>
+    <div class="footeric">
+        <div id="sablon2">
+            <p>Emirhan DOĞANDEMİR</p>
+            <div>
+                <img src="../images//mail1.png" width="30px" height="20px" style="float: left;margin-right: 5px;">
+                <p style="float: left;">demirhandgndmr@mail.com.tr</p>
+            </div>
+            <a href="https://www.instagram.com/dgndmremirhan"><img src="../images/instagram1.png" width="45px" height="45px" style="margin-right: 5px;"></a>
+            <a href="https://www.facebook.com/profile.php?id=100004657995421"><img src="../images/facebook1.png" width="40px" height="40px" style="margin-right: 5px;margin-top: 2px;"></a>
+        </div>
+        <div id="sablon2">
+            <p>Emre BOZKURT</p>
+            <div>s
+                <img src="../images//mail1.png" width="30px" height="20px" style="float: left;margin-right: 5px;">
+                <p style="float: left;">lastlife.v1@gmail.com</p>
+            </div>
+            <a href="https://www.instagram.com/emrebozzkurtt"><img src="../images/instagram1.png" width="45px" height="45px" style="margin-right: 5px;"></a>
+            <a href="https://www.facebook.com/emre.lastlife"><img src="../images/facebook1.png" width="40px" height="40px" style="margin-right: 5px;margin-top: 2px;"></a>
+        </div>
+    </div> 
+</footer>
+</html>

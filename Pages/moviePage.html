@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yazılım</title>
+    <link rel="icon" href="../images/html_logo.png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        #container {
+            width: 100%;
+            margin-left: 0 auto;
+            margin-right: 0 auto;
+            margin-top: 20px;
+        }
+        #ortala {
+            display: table;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+            margin: 0 auto;
+            width: 100%;
+        }
+        hr{
+            height: 10px;
+            background-color: palevioletred;
+            border-radius: 10px;
+            margin: 20px;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        a:hover{
+            font-size: 26px;
+            color: brown;
+        }
+        .footer{
+            padding: 10px;
+            margin-top: 30px;
+            background-color: black;
+            border-radius: 20px;
+            width: 100%;
+            text-align: center;
+        }
+        .footeric {
+            text-align: center;
+            display: grid;
+            margin:auto;
+            grid-template-rows: 140px;
+            grid-gap: 30px;
+        }
+        #sablon2 {
+            border:ridge orange 2px;
+            width: max-content;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        body{
+            background-color: rgb(219, 223, 168);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="row text-center">
+            <img id="ortala" class="responsive" src="../images/mainPage_photograph.jpg" alt="Üst Bilgi">
+        </div>
+        <div class="container">
+            <div class="col-sm-2">
+                <div style="text-align: center; margin-top: 30px; ">
+                    <img  class="responsive" src="../images/html_logo2.png"/>
+                </div>
+            </div>
+
+            <div class="col-sm-2 text-center" style="margin-top: 40px;">
+                <p><a href="../Pages/mainPage.html">Ana Sayfa</a></p>
+            </div>
+
+            <div class="col-sm-2 text-center" style="margin-top: 40px;">
+                <p><a href="../Pages/moviePage.html">Film - Dizi</a></p>
+            </div>
+            
+            <div class="col-sm-2 text-center" style="margin-top: 40px;">
+                <p><a href="../Pages/languagePage.html">Diller</a></p>
+            </div>
+
+            <div class="col-sm-2 text-center" style="margin-top: 40px;">
+                <p><a href="../Pages/historyPage.html">Tarihçe</a></p>
+            </div>
+
+            <div class="col-sm-2 text-center" style="margin-top: 40px;">
+                <p><a href="../Pages/imagePage.html">Görseller</a></p>
+            </div>
+        </div>
+        <hr>
+        <div style="height: 30px;"></div>
+    </div>
+</body>
+<footer class="footer">
+    <h2 style="color: orange;">İletişim Bilgileri</h2>
+    <div class="footeric">
+        <div id="sablon2">
+            <p>Emirhan DOĞANDEMİR</p>
+            <div>
+                <img src="../images//mail1.png" width="30px" height="20px" style="float: left;margin-right: 5px;">
+                <p style="float: left;">emirhandgndmr@mail.com.tr</p>
+            </div>
+            <a href="https://www.instagram.com/dgndmremirhan"><img src="../images/instagram1.png" width="45px" height="45px" style="margin-right: 5px;"></a>
+            <a href="https://www.facebook.com/profile.php?id=100004657995421"><img src="../images/facebook1.png" width="40px" height="40px" style="margin-right: 5px;margin-top: 2px;"></a>
+        </div>
+        <div id="sablon2">
+            <p>Emre BOZKURT</p>
+            <div>
+                <img src="../images//mail1.png" width="30px" height="20px" style="float: left;margin-right: 5px;">
+                <p style="float: left;">lastlife.v1@gmail.com</p>
+            </div>
+            <a href="https://www.instagram.com/emrebozzkurtt"><img src="../images/instagram1.png" width="45px" height="45px" style="margin-right: 5px;"></a>
+            <a href="https://www.facebook.com/emre.lastlife"><img src="../images/facebook1.png" width="40px" height="40px" style="margin-right: 5px;margin-top: 2px;"></a>
+        </div>
+    </div> 
+</footer>
+</html>
